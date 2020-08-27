@@ -1,12 +1,18 @@
 ---
 layout: post
-title:  "Les Ambassadeurs, the first Restaurant we Visited in Paris"
-author: sal
-categories: [ Lifestyle ]
-tags: [ France ]
+title:  "The Importance of Blogging"
+author: So Hyun K.
+date: 2020-08-27
+categories: [ Dev Diary ]
 image: assets/images/2.jpg
-rating: 4.5
 ---
+
+A former student of ***Code States*** gave a lecture about the importance of blogging, continuously.
+It was an issue that I was concerned about during the 20-weeks of the bootcamp.
+I was not so sure if I could find the time to write a blog about what I learned that day, while keeping up with the sprint which had to be finished in such short amount of time, compared to my level of knowledge.
+
+The Code States-graduate was working in a company which makes a service, similar to ***Netflix***, called ***Watcha***.
+
 
 Within the Hôtel de Crillon, which was built in 1758, Les Ambassadeurs operated as a restaurant since the mid-19th century. It reached its peak of fame as a restaurant and nightclub (a café-concert) in the last three decades of the 19th century. 
 
