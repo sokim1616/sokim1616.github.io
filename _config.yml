@@ -1,7 +1,7 @@
 # Site
 name: "김소현이다"
 title: "김소현의 블로그이다"
-description: "뭐!"
+description: "So Hyun's Blog"
 logo: 'assets/images/logo1.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
