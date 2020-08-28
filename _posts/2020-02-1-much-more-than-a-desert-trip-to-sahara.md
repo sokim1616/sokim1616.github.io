@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Much more than a desert: A trip into the Sahara"
-author: john
-categories: [ Travel ]
+title:  "Algorithm Study Group"
+author: So Hyun K.
+date: 2020-08-28
+categories: [ Dev Diary ]
 image: assets/images/16.jpg
 ---
 
