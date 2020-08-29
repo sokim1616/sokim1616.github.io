@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Algorithm Study Group"
+title:  "Algorithm: Reverse Linked List"
 author: So Hyun K.
 date: 2020-08-28
 categories: [ Dev Diary ]
@@ -10,7 +10,19 @@ image: assets/images/16.jpg
 Ever since the boot camp has ended, I've been involved in a study group that solves algorithm problems every morning.
 Since algorithm is not my strength, I had to work even harder to keep it up.
 
-Today, I solved a problem related to **linked list**.
+Today, I solved a problem in ***leetcode*** related to **linked list**, titled "Reverse Linked List".
+The goal was to basically reverse a given linked list.
+
+The given code was this:
+```
+var reverseList = function(head) {
+    
+};
+```
+where **head** is a linked list in the form of: [1, 2, 3, 4, 5].
+
+The structure of a linked list might seem like the one of an array, but they are two different things.
+A linked list is a type of a **data structure** composed of elements called 'nodes', which is composed of a 'head' and a 'tail', or 'next'.
 
 
 
