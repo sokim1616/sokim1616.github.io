@@ -4,6 +4,7 @@ title:  "Algorithm: Reverse Linked List"
 author: So Hyun K.
 date: 2020-08-28
 categories: [ Dev Diary ]
+tags: [ Data Structure ], [ Linked List ]
 image: assets/images/16.jpg
 ---
 
@@ -23,6 +24,25 @@ where **head** is a linked list in the form of: [1, 2, 3, 4, 5].
 
 The structure of a linked list might seem like the one of an array, but they are two different things.
 A linked list is a type of a **data structure** composed of elements called 'nodes', which is composed of a 'head' and a 'tail', or 'next'.
+
+So to begin with, I made a conditional statement where if there is no linked list, just return the given input.
+```
+if (!head) return head;
+```
+
+And I assigned two variables that is assigned to the head node and the node after the head node.
+```
+let headNode = head;
+let nextNode = head.next;
+```
+
+The last element after the final node had to be null, so I assigned the node after the head to be null.
+```
+headNode.next = null;
+```
+
+
+
 
 
 
