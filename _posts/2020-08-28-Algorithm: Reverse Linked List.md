@@ -32,24 +32,52 @@ if (!head) return head;
 
 And I assigned two variables that is assigned to the head node and the node after the head node.
 ```
-let headNode = head;
+let node = head;
 let nextNode = head.next;
 ```
 
 The last element after the final node had to be null, so I assigned the node after the head to be null.
 ```
-headNode.next = null;
+node.next = null;
 ```
 
+After that, I used the while loop where as long as the nextNode exists, there will be a cycle of elements changing places with each other.
+Let's take a look at the code first.
+```
+while(nextNode) {
+    const nextNextNode = nextNode.next;
+    nextNode.next = node;
+    node = nextNode;
+    nextNode = nextNextNode;
+}
+```
+Inside the while loop, I made another variable called 'nextNextNode', which is the node after the nextNode.
 
+(It's like a tongue twister, huh? XD)
 
+And then, the final outcome would be returned.
+So basically, the whole point is to change the first three elements (nodes) of the given linked list, so that the head becomes the tail, and the tail becomes the head.
 
+Below is the final code:
+```
+var reverseList = function(head) {
 
+    if (!head) return head;
+    
+    let node = head;
+    let nextNode = head.next;
+    
+    node.next = null;
 
-The Sahara is a desert located on the African continent. It is the largest hot desert in the world, and the third largest desert overall after Antarctica and the Arctic. Its area of 9,200,000 square kilometres (3,600,000 sq mi) is comparable to the area of China or the United States.[3] The name 'Sahara' is derived from a dialectal Arabic word for "desert", ṣaḥra (صحرا /ˈsˤaħra/).
+    while (nextNode) {
+        const nextNextNode = nextNode.next;
+		nextNode.next = node;
+        node = nextNode;
+        nextNode = nextNextNode;
+    }
+    
+    return node;
+};
+```
 
-The desert comprises much of North Africa, excluding the fertile region on the Mediterranean Sea coast, the Atlas Mountains of the Maghreb, and the Nile Valley in Egypt and Sudan. It stretches from the Red Sea in the east and the Mediterranean in the north to the Atlantic Ocean in the west, where the landscape gradually changes from desert to coastal plains. 
-
-To the south, it is bounded by the Sahel, a belt of **semi-arid tropical savanna** around the Niger River valley and the Sudan Region of Sub-Saharan Africa. The Sahara can be divided into several regions including: the western Sahara, the central Ahaggar Mountains, the Tibesti Mountains, the Aïr Mountains, the Ténéré desert, and the Libyan Desert.
-
-For several hundred thousand years, the Sahara has alternated between desert and savanna grassland in a 20,000 year cycle caused by the precession of the Earth's axis as it rotates around the Sun, which changes the location of the North African Monsoon. The area is next expected to become green in about 15,000 years (17,000 AD).
+Thanks for reading, and please let me know if there's anything I should fix! :)
