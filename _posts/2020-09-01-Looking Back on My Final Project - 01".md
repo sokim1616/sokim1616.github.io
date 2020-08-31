@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking Back on My Final Project - 01"
 author: So Hyun K.
-date: 2020-09-01
+date: 2020-09-01 00:53:00
 categories: [ Dev Diary ]
 image: assets/images/15.jpg
 ---
