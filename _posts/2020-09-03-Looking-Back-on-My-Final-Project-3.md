@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Looking Back on My Final Project - 03"
+title:  "Looking Back on My Final Project (Typescript) - 03"
 author: So Hyun K.
 date: 2020-09-03
 categories: [ Travel ]
+tags: [ Typescript ]
 image: assets/images/9.jpg
 ---
 
@@ -22,3 +23,11 @@ I did not know how to read the codes that were written with the **Typescript** f
 Guess what?
 The simulator ran fine without any errors!
 
+The reason is because the "**Typescript** red lines" are just telling me that there are errors in the structure of the code, but it is NOT grammatically incorrect so the code runs just fine.
+
+In the process of trying to figure out the problem, I learned that **Typescript** is usually helpful when the project is much larger, for example in an actual IT company. 
+This is because when there are a lot of programmers, working towards the same goal, it can be difficult to control everyone's codes. So the idea of **Typescript** is to set a rule so that what each programmer writes can be consistent with the rest of the team members.
+
+Which means that there was no need for our little team of four to be using **Typescript**!
+But the overall goal of the project was to learn new things, isn't that right?
+And **Typescript** is popular among many IT companies nowadays, so it was a good experience to learn it during my final project! :)
