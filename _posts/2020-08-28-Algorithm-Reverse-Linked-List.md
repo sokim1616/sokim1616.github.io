@@ -17,7 +17,7 @@ The goal was to basically reverse a given linked list.
 The given code was this:
 ```
 var reverseList = function(head) {
-    
+
 };
 ```
 where **head** is a linked list in the form of: [1, 2, 3, 4, 5].
@@ -45,10 +45,10 @@ After that, I used the while loop where as long as the nextNode exists, there wi
 Let's take a look at the code first.
 ```
 while(nextNode) {
-    const nextNextNode = nextNode.next;
-    nextNode.next = node;
-    node = nextNode;
-    nextNode = nextNextNode;
+  const nextNextNode = nextNode.next;
+  nextNode.next = node;
+  node = nextNode;
+  nextNode = nextNextNode;
 }
 ```
 Inside the while loop, I made another variable called 'nextNextNode', which is the node after the nextNode.
@@ -62,21 +62,21 @@ Below is the final code:
 ```
 var reverseList = function(head) {
 
-    if (!head) return head;
+  if (!head) return head;
     
-    let node = head;
-    let nextNode = head.next;
+  let node = head;
+  let nextNode = head.next;
     
-    node.next = null;
+  node.next = null;
 
-    while (nextNode) {
-        const nextNextNode = nextNode.next;
-		nextNode.next = node;
-        node = nextNode;
-        nextNode = nextNextNode;
-    }
+  while (nextNode) {
+      const nextNextNode = nextNode.next;
+	  nextNode.next = node;
+      node = nextNode;
+      nextNode = nextNextNode;
+  }
     
-    return node;
+  return node;
 };
 ```
 
