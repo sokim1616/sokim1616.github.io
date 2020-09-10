@@ -13,3 +13,10 @@ The title of the problem is pretty straight-forward, but the main goal is to rev
 
 For example, a given string "Hello" has to be returned as "olleH".
 
+This was the code that I had to start with:
+```
+var reverseString = function(s) {
+
+}
+```
+where 's' is the given string.
