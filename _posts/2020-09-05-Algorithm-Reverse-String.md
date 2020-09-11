@@ -20,3 +20,27 @@ var reverseString = function(s) {
 }
 ```
 where 's' is the given string.
+
+I have tried this problem with the code below:
+```
+var reverseString = function(s) {
+    
+     let result = [];
+    
+     for (let i = 0; i < s.length; i++) {
+         console.log("s[i]", s[i])
+         result.unshift(s[i])
+     }
+     console.log("result", result) // [ 'o', 'l', 'l', 'e', 'h' ]
+     return result; // ["h","e","l","l","o"]
+```
+
+I wanted to try to solve this provlem using bubble sort at first, but then after 30 minutes of trial, I found out that there is a perfect method to use in cases like this: reverse()...
+
+So basically, all I needed to do was
+```
+var reverseString = function(s) {
+    s.reverse()
+}
+```
+and then it would automatically reverse the order of the string 's'!
