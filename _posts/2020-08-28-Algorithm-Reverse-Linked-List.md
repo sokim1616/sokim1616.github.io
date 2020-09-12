@@ -4,7 +4,6 @@ title:  "Algorithm: Reverse Linked List"
 author: So Hyun K.
 date: 2020-08-28
 categories: [ Dev Diary ]
-tags: [ Data Structure ], [ Linked List ]
 image: assets/images/16.jpg
 ---
 
