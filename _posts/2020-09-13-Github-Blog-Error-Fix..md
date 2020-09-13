@@ -11,12 +11,20 @@ At one point, the posts that I have written would not load on the actual blog pa
 Since using **Github** as a blog is not really something that I was used to, I was struggling to fix this error for, believe it or not, more than a couple weeks! XD
 
 These are the list of things that I've tried:
-<li>
-Putting spaces in between colon(:) and the actual content in the settings
-Renaming the files just in case there was a structure error
-Fixing so many things in the '_config.yml' file just in case
-Googling about this same issue which I couldn't find..
-</li>
+<ul>
+    <li>
+    Putting spaces in between colon(:) and the actual content in the settings
+    </li>
+    <li>
+    Renaming the files just in case there was a structure error
+    </li>
+    <li>
+    Fixing so many things in the '_config.yml' file just in case
+    </li>
+    <li>
+    Googling about this same issue which I couldn't find..
+    </li>
+</ul>
 
 But then, I realized I wasn't aware of the easiest way to find the error..!
 Since the commit records has been updating (even though it didn't show on the blog) I looked through them and saw since when did the error occur.
