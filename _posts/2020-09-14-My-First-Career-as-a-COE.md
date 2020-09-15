@@ -6,10 +6,10 @@ categories: [ Dev Diary ]
 image: assets/images/17.jpg
 ---
 
-After I completed the 20-week course of programming in **Codestates**, I have applied to work in the company myself.
+After completing the 20-week course of programming in **Codestates**, I have applied to work in the company myself.
 Originally, **Codestates** had the trend of hiring some of their students as the CSE, which were **Codestates** graduates that academically helped the current students in the course.
 However, beginning with our class (Immersive 20), a new position called COE was created.
-COE, or Codestates Organization Engineer, was basically a position that worked on organizing and counseling the current students who might be having difficult times.
+COE, or Codestates Operation Engineer, was basically a position that worked on organizing and counseling the current students who might be having difficult times.
 Also, as time passes the number of **Codestates** students are increasing, so it is necessary to divide up a class into several sub-classes in order to take care of each and every one of the students.
 
 And this is the position that I applied for.
