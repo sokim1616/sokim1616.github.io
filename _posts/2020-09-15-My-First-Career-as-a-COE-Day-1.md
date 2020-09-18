@@ -3,7 +3,6 @@ layout: post
 title:  "My First Career as a COE - Day 1"
 author: So Hyun K.
 categories: [ Dev Diary ]
-tags: [Movies]
 image: assets/images/11.jpg
 ---
 
@@ -25,6 +24,3 @@ So my main goal is to find a way to talk with the students and also search for s
 
 I'm looking forward to what I can contribute to **Codestates** and the students of **Codestates**.
 I will have to take notes of every idea that comes into my mind in order to do so! :)
-
-In the next post, I will write about some of the basic concepts of JavaScript!
-See you soon :)
