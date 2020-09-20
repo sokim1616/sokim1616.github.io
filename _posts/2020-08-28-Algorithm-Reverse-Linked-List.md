@@ -3,7 +3,7 @@ layout: post
 title:  "Algorithm: Reverse Linked List"
 author: So Hyun K.
 date: 2020-08-28
-categories: [ Dev Diary ]
+categories: [ Algorithm ]
 image: assets/images/16.jpg
 ---
 
