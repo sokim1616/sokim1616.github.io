@@ -1,16 +1,28 @@
 ---
 layout: post
-title:  "The Observer - National Gallery of Art, Washington, United States"
-author: sal
-categories: [ Lifestyle ]
+title:  "Node.js"
+author: So Hyun K.
+categories: [ TIL ]
 image: assets/images/1.jpg
 ---
-The National Gallery of Art, and its attached Sculpture Garden, is a national art museum in Washington, D.C., located on the National Mall, between 3rd and 9th Streets, at Constitution Avenue NW. Open to the public and free of charge, the museum was privately established in 1937 for the American people by a joint resolution of the United States Congress. Andrew W. Mellon donated a substantial art collection and funds for construction. 
 
-> The core collection includes major works of art donated by Paul Mellon, Ailsa Mellon Bruce, Lessing J. Rosenwald, Samuel Henry Kress, Rush Harrison Kress, Peter Arrell Browne Widener, Joseph E. Widener, and Chester Dale. 
+Starting today, I began learning deeply about **Node.js**, which I've been studying and applying throughout the bootcamp period, but never really knew how to explain it to others who have no idea what **Node.js** is.
+Now that the course is over, I finally decided to master Node.js before the end of the year!
+So begins my TIL posts.
 
-The Gallery's collection of paintings, drawings, prints, photographs, sculpture, medals, and decorative arts traces the development of Western Art from the Middle Ages to the present, including the only painting by Leonardo da Vinci in the Americas and the largest mobile created by Alexander Calder.
+To begin with, the definition of Node.js is "an open source cross-platform runtime environment for executing JavaScript code, outside of a browser". You might be wondering, 'So what is Node.js again?'
+It is bascially something that allows some JavaScript code that is written in a program that has loads of codes in it, to be seen as a product in a web application, or a mobile application, that is more familiar to most of the people.
+So Node.js is used to build back-end services such as APIs (Application Programming Interfaces).
 
-The Gallery's campus includes the original neoclassical West Building designed by John Russell Pope, which is linked underground to the modern East Building, designed by I. M. Pei, and the 6.1-acre (25,000 m2) Sculpture Garden. 
+Keep in mind that I mentioned that Node.js is related to **JavaScript** codes.
+This is because there are other programming languages, such as C++, Java, Python and so on. However, Node.js specifically works with JavaScript (don't confuse with Java!). Other languages have other runtime environments, but there are some reasons that Node.js is suitable to create a client application.
 
-The Gallery often presents temporary special exhibitions spanning the world and the history of art. It is one of the largest museums in North America.
+Some of the advantages of using Node.js are:
+1. It is good for prototyping
+2. It is extremely fast and scalable
+3. In Node applications JavaScript is used, so you can use JS in both Front-end and Back-end & can be a Full-stack developer
+4. There are a lot of open source libraries, so there is no need to create building blocks
+
+
+In the next post, I'll talk about the basic history of Node.js and how Node.js works.
+Please let me know if there's any errors! I will be more than happy to correct them :)
