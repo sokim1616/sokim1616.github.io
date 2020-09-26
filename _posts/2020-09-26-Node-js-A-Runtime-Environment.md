@@ -16,7 +16,8 @@ For example, the JavaScript Engine of Internet Explorer is **Chakra**, Firefox *
 However in 2009, a software engineer named **Ryan Dahl** thought it would be better to run JavaScript not just inside a browser. Thus created Node.js. He used Google Chrome's **v8** and embedded it into a C++ program to make a Node.exe.
 
 Here comes the confusing part. The general flow of the system is very similar to that of a browser.
-![image](assets/images/runtime_environment.png)
+![image](https://miro.medium.com/max/560/1*zeKjWCjyAGZ9JN4fvnWsiA.png)
+
 In the core of a browser, there is a JavaScript Engine. And surrounding it is a 'runtime environment' that includes APIs that are needed in order to build a program AND the JavaScript Engine that decodes human's codes into a computer's code. So 'runtime environment' is a container that stores all that is needed to create a program.
 
 Now, what is the difference between a browser and Node?
