@@ -12,3 +12,8 @@ An **asynchronous** architecture can handle multiple requests, unlike **synchron
 However, **asynchronous** architecture such as Node.js has a single thread that handles all requests: Database executing the query while serving another client.
 
 In Node.js, when the database prepares the result, it puts a message in something called, "event queue", which the Node is continuously monitoring in the background. WHen the Node finds an event in this "queue", it will take the event out and process it.
+This makes the Node idea for building apps that includes a lot of disk spaces, or other network accesses. In other words, Node.js is said to be **I/O-intensive**, because it can serve numerous clients without expanding the number of hardware.
+
+However, Node.js should NOT be used for CPU-intensive apps, because such apps does not have much operations that works with the file system or the network.
+
+To summarize, Node.js is a runtime environment that is suitable for data-intensive applications.
