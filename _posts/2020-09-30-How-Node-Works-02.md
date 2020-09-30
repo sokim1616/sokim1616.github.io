@@ -3,7 +3,7 @@ layout: post
 title:  "How Node.js Works - 02"
 author: So Hyun K.
 categories: [ TIL ]
-image: assets/images/7.jpg
+image: assets/images/19.jpg
 ---
 
 When you create a new file for example called **app.js**, and write a function that prints a greeting, you can see it printing on the terminal that you run the file.

@@ -3,7 +3,7 @@ layout: post
 title:  "How Node.js Works"
 author: So Hyun K.
 categories: [ TIL ]
-image: assets/images/7.jpg
+image: assets/images/18.jpg
 ---
 
 Node.js is highly-scalable, which means that it can be flexible and cope with increased uses. And this is because Node.js is **asynchronous**.
