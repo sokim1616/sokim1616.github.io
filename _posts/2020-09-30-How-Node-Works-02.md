@@ -6,7 +6,7 @@ categories: [ TIL ]
 image: assets/images/19.jpg
 ---
 
-When you create a new file for example called **app.js**, and write a function that prints a greeting, you can see it printing on the terminal that you run the file.
+When you create a new Node.js file for example called **app.js**, and write a function that prints a greeting, you can see it printing on the terminal that you run the file.
 For instance, think of below as a function in **app.js** file:
 ```
 function greetSomeone(name) {
