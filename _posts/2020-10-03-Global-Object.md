@@ -3,7 +3,7 @@ layout: post
 title:  "Global Object"
 author: So Hyun K.
 categories: [ TIL ]
-image: assets/images/19.jpg
+image: assets/images/20.jpg
 ---
 
 Did you know that the ```console.log``` that you write to check what is happening at that particular moment, is actually a global object?
