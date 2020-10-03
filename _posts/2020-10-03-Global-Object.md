@@ -20,3 +20,7 @@ Other than ```console.log```, below are other examples of global objects:
 These functions above can be used in the window of a browser. In other words the window objects in browsers, are also in the global scope, and all variables and functions that are defined globally can be accessed via window object.
 
 However, when a variable is declared in **app.js**, it is NOT added in the global object, because that variable is scoped ONLY to the **app.js** file that it was called in.
+
+
+In the next post, I will explain about this **scope** concept, called **module** in more detail.
+Let me know if there is any errors! :)
