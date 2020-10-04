@@ -22,5 +22,5 @@ These functions above can be used in the window of a browser. In other words the
 However, when a variable is declared in **app.js**, it is NOT added in the global object, because that variable is scoped ONLY to the **app.js** file that it was called in.
 
 
-In the next post, I will explain about this **scope** concept, called **module** in more detail.
+In the next post I will explain about this concept of **scope**, called **module**, in detail.
 Let me know if there is any errors! :)
