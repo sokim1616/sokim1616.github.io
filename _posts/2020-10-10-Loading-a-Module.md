@@ -19,3 +19,10 @@ To write the path of a target module, there are several rules to follow:
 
 The **require function** returns the object that is exported from this target module.
 
+
+In case you want to export just a single function, instead of the whole module, you can change the module.exports to:
+```
+module.exports = (function name)
+```
+
+Initially, the module was exporting an empty object, but by doing so it is reset to just a function.
